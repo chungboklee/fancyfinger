@@ -14,6 +14,7 @@ html::-webkit-scrollbar {
 
   }
   
+  
   canvas {
     position: fixed;
     left: 50%;
@@ -21,4 +22,49 @@ html::-webkit-scrollbar {
     transform: translate(-50%, -50%);
     max-width: 100vw;
     max-height: 100vh;
+  }
+
+  .footer {
+    position:fixed;
+    width:100%;
+    text-align:center;
+    bottom:3rem;
+    z-index:9999;
+  }
+
+  
+h3{
+    margin: 0 auto;
+    font-size:1.25rem;
+    font-weight:700;
+    margin-bottom:0.75rem;
+  }
+  
+  p {
+    margin: 0 auto;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    line-height:1rem;
+  }
+  
+  .font-secondary{
+    font-size:0.75rem;
+    font-weight:400;
+    color: rgba(151,159,177,0.5);
+  }
+  
+  a{
+    color:rgba(151,159,177,0.8);
+    text-decoration: none;
+  }
+  
+  .icon{
+    width:2rem;
+    height:2rem;
+    margin-bottom:2rem;
+  }
+  
+  canvas {
+    height: 100%;
+    width: 100%;
   }
